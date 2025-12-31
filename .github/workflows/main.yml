@@ -12,7 +12,7 @@ jobs:
       run: echo "This is my first Job"
     
   my_second_job:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     steps:
     - name: job2
       run: echo "This is my 2nd Job"
