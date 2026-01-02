@@ -4,9 +4,7 @@ on: workflow_dispatch
   # push:
   #   banches:
   #     - main
-  #     - feature/**
-  
-
+  #     - feature/*
 jobs:
   Job1:
     name: This is my First Job
@@ -21,7 +19,7 @@ jobs:
       - name: this is 3rd Task
         run: Jay MahaKal
   
-   Job2:
+  job2:
      name: This is 2nd Job
      runs-on: ubuntu-latest
      steps:
