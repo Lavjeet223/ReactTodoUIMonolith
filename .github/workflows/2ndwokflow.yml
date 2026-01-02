@@ -1,10 +1,11 @@
 name: 2ndworkflow
 run-name: ${{github.actor}}
-on: workflow_dispatch
-  # push:
-  #   banches:
-  #     - main
-  #     - feature/*
+on: 
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+      - feature/*
 jobs:
   Job1:
     name: This is my First Job
