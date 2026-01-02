@@ -9,7 +9,7 @@ on:
     #   - feature/*
 
   schedule:
-    - cron: '41 13 * * *'
+    - cron: '16 14 * * *'
     # - cron: '17,18 11 * * *'
     # - cron: '19 * * * *'
 
