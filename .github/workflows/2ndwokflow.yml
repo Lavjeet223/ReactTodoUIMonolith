@@ -3,9 +3,9 @@ run-name: ${{github.actor}}
 on: 
   workflow_dispatch:
   push:
-    branches:
-      - main
-      - feature/*
+    # branches:
+    #   - main
+    #   - feature/*
 jobs:
   Job1:
     name: This is my First Job
