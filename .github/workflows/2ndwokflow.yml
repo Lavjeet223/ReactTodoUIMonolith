@@ -9,9 +9,9 @@ on:
     #   - feature/*
 
   schedule:
-    - cron: '21 * * * *'
-    - cron: '22 * * * *'
-    - cron: '23 * * * *'
+    - cron: '57 * * * *'
+    - cron: '58 * * * *'
+    - cron: '59,0 * * * *'
 
   
 jobs:
