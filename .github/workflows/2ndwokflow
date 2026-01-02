@@ -1,0 +1,35 @@
+name: 2ndworkflow
+run-name: ${{github.actor}}
+on:
+  push:
+    banches:
+      - main
+      - feature/**
+  workflow_dispatch
+
+jobs:
+  Job1:
+    name: This is my First Job
+    runs-on: ubuntu-latest
+    steps:
+      - name: this is first task
+        run: echo Jay BholeNath
+
+      - name: this is 2nd Task
+        run: echo Jay Shree Ram
+
+      - name: this is 3rd Task
+        run: Jay MahaKal
+  
+   Job2:
+     name: This is 2nd Job
+     runs-on: ubuntu-latest
+     steps:
+      - name: this is first task of 2nd job
+        run: echo Jay Bhole Baba
+
+      - name: this is 2nd Task f 2nd job
+        run: echo Jay Shree Sita Ram
+
+      - name: this is 3rd Task f 2nd job
+        run: Hare Krishana
