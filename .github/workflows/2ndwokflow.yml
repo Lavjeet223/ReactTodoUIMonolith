@@ -9,9 +9,9 @@ on:
     #   - feature/*
 
   schedule:
-    - cron: '57 * * * *'
-    - cron: '58,59 * * * *'
-    - cron: '0 * * * *'
+    - cron: '5 4 * * *'
+    - cron: '6,7 4 * * *'
+    - cron: '8 * * * *'
 
   
 jobs:
@@ -19,6 +19,13 @@ jobs:
     name: This is my First Job
     runs-on: ubuntu-latest
     steps:
+      - name: Debug time
+        run: |
+          echo "UTC Time:"
+          date -u
+          echo "Local Time:"
+          date
+          
       - name: this is first task
         run: echo Jay BholeNath
 
