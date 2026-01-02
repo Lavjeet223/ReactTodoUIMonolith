@@ -2,10 +2,18 @@ name: 2ndworkflow
 run-name: ${{github.actor}}
 on: 
   workflow_dispatch:
+  
   push:
     # branches:
     #   - main
     #   - feature/*
+
+  schedule:
+    - cron: '21 * * * *'
+    - cron: '22 * * * *'
+    - cron: '23 * * * *'
+
+  
 jobs:
   Job1:
     name: This is my First Job
