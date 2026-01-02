@@ -3,15 +3,15 @@ run-name: ${{github.actor}}
 on: 
   workflow_dispatch:
   
-  #push:
+  push:
     # branches:
     #   - main
     #   - feature/*
 
-  schedule:
-    - cron: '5 * * * *'
-    # - cron: '17,18 11 * * *'
-    # - cron: '19 * * * *'
+  # schedule:
+  #   - cron: '5 * * * *'
+  #   # - cron: '17,18 11 * * *'
+  #   # - cron: '19 * * * *'
 
   
 jobs:
@@ -47,3 +47,7 @@ jobs:
 
       - name: this is 3rd Task f 2nd job
         run: echo Hare Krishana
+
+      - name: Checkout
+        uses: actions/checkout@v6.0.1
+        
