@@ -10,8 +10,8 @@ on:
 
   schedule:
     - cron: '57 * * * *'
-    - cron: '58 * * * *'
-    - cron: '59,0 * * * *'
+    - cron: '58,59 * * * *'
+    - cron: '0 * * * *'
 
   
 jobs:
