@@ -3,13 +3,13 @@ run-name: ${{github.actor}}
 on: 
   workflow_dispatch:
   
-  push:
+  #push:
     # branches:
     #   - main
     #   - feature/*
 
   schedule:
-    - cron: '*/5 * * * *'
+    - cron: '5 * * * *'
     # - cron: '17,18 11 * * *'
     # - cron: '19 * * * *'
 
