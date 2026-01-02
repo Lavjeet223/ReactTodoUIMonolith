@@ -1,11 +1,11 @@
 name: 2ndworkflow
 run-name: ${{github.actor}}
-on:
+on: workflow_dispatch
   push:
     banches:
       - main
       - feature/**
-  workflow_dispatch
+  
 
 jobs:
   Job1:
