@@ -17,7 +17,7 @@ jobs:
         run: echo Jay Shree Ram
 
       - name: this is 3rd Task
-        run: Jay MahaKal
+        run: echo Jay MahaKal
   
   job2:
      name: This is 2nd Job
@@ -30,4 +30,4 @@ jobs:
         run: echo Jay Shree Sita Ram
 
       - name: this is 3rd Task f 2nd job
-        run: Hare Krishana
+        run: echo Hare Krishana
